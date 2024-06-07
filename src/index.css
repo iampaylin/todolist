@@ -1,0 +1,135 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(27, 27, 27);
+  background-color: #f5f5f5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.App {
+  max-width: 800px;
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1rem;
+
+  padding: 0.5rem 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem;
+  margin: 0.5rem 0;
+
+  background-color: #0f0f0f;
+  color: #f5f5f5;
+  border-radius: 0.5rem;
+}
+
+input[type="text"] {
+  max-width: 800px;
+  width: 400px;
+  padding: 0.9rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+
+input[type="checkbox"] {
+  margin-right: 1rem;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+
+  accent-color: #ffffff;
+  transition: 250ms;
+}
+
+.add {
+  background-color: #388ef0;
+}
+
+.delete {
+  background-color: #e63030;
+}
+
+button {
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  border: none;
+  cursor: pointer;
+
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+
+button:hover {
+  transform: scale(0.9);
+}
+
+.item span {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+div.links {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.links-link {
+  margin: 0.5rem;
+}
+
+.links-link img {
+  transition: all 0.3s ease;
+}
+
+.links-link img:hover {
+  transition: all 0.3s ease;
+  transform: scale(0.9);
+}
