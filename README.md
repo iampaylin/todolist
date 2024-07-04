@@ -2,7 +2,7 @@
 
 Todo list website made with React, TypeScript and Codeium
 
-<img src="https://media.discordapp.net/attachments/1248713769450737816/1248713810022367342/Todo_List_-_React_TypeScript_Codeium.png?ex=6664aadc&is=6663595c&hm=aa54a03ca29757b3a88aa7da2e39856e3a7c4458ecd32cc41dc23ff7eaeb064d&=&format=webp&quality=lossless&width=1920&height=1080">
+<img src="https://media.discordapp.net/attachments/1248713769450737816/1248713810022367342/Todo_List_-_React_TypeScript_Codeium.png?ex=6686f1dc&is=6685a05c&hm=bd30ffa6de04239a31ca80405a1d7144104f9b441c564a1908cb839e3320dae9&=&format=webp&quality=lossless&width=1246&height=701">
 
 ## Link
 https://todolist-iampaylin.vercel.app/
